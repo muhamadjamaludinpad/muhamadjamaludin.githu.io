@@ -1159,15 +1159,15 @@ input[type='text'] {
 }
 
 .btn-primary {
-  background: #092e2a;
+  background: #613613;
   color: #fff;
-  border: 2px solid #613613;
+  border: 2px solid #573010;
 }
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active {
-  background: #010c0b !important;
-  border-color: #010c0b !important;
+  background: #44250c !important;
+  border-color: #44250c !important;
 }
 .btn-primary.btn-outline {
   background: transparent;
