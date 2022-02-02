@@ -318,10 +318,28 @@ figure {
   border-bottom: none;
 }
 
+/* bg */
 .fh5co-bg-dark {
   background: #2f3c4f;
   background: #613613;
 }
+
+.fh5co-bg-dark1 {
+  /* background: #2f3c4f;
+  background: #613613; */
+  background-image: url(../images/aditya-joshi-wG923J9naFQ-unsplash.jpg);
+}
+
+.fh5co-bg-dark1::before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  position: absolute;
+  bottom: 0;
+}
+
 .fh5co-bg-dark .fh5co-heading h2 {
   color: #fff !important;
 }
@@ -851,6 +869,13 @@ figure {
     height: 270px;
   }
 }
+
+/* photos */
+.fh5co-blog .blog-text p {
+  height: 100px;
+  overflow: hidden;
+}
+
 .fh5co-blog .blog-text {
   margin-bottom: 30px;
   position: relative;
