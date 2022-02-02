@@ -248,7 +248,7 @@ figure {
 }
 @media screen and (max-width: 992px) {
   #fh5co-features .feature-left {
-    margin-bottom: 30px;
+    margin-bottom: 40px;
   }
 }
 #fh5co-features .feature-left .icon {
@@ -382,7 +382,7 @@ figure {
   padding-right: 10px;
 }
 .fh5co-social-icons li a i {
-  font-size: 20px;
+  font-size: 30px;
 }
 
 #fh5co-about .fh5co-social-icons {
