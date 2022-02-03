@@ -367,7 +367,7 @@ figure {
 .info li .first-block {
   width: 40%;
   display: inline-block;
-  float: left;
+  /* float: left; */
   color: #000;
   font-weight: bold;
 }
