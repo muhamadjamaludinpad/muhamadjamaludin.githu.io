@@ -4,16 +4,16 @@
 //   // Basic options for a simple Google Map
 //   // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
 //   // var myLatlng = new google.maps.LatLng(40.71751, -73.990922);
-//   var myLatlng = new google.maps.LatLng(40.69847032728747, -73.9514422416687);
+//   var myLatlng = new google.maps.LatLng(-6.884082, -73.9514422416687);
 //   // 39.399872
 //   // -8.224454
 
 //   var mapOptions = {
 //     // How zoomed in you want the map to start at (always required)
-//     zoom: 8,
+//     zoom: 7,
 
 //     // The latitude and longitude to center the map (always required)
-//       center: { lat: -6.899541, lng: 107.533867 }
+//     center: myLatlng,
 
 //     // How you would like to style the map.
 //     scrollwheel: false,
