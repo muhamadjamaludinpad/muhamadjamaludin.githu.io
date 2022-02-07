@@ -898,7 +898,7 @@ figure {
 }
 @media screen and (max-width: 768px) {
   .fh5co-blog .blog-text {
-    padding: 10px;
+    padding: 10px 10px 0 10px;
   }
 }
 .fh5co-blog .blog-text span {
@@ -909,7 +909,7 @@ figure {
 }
 .fh5co-blog .blog-text .stuff {
   margin: 0;
-  padding: 0;
+  padding: 5px;
   border-top: 1px solid rgba(0, 0, 0, 0.05);
   max-width: auto;
 }
@@ -1412,6 +1412,7 @@ input[type='text'] {
 
 .fh5co-blog .blog-text .readmore-btn {
   float: right;
+  padding: 5px;
 }
 
 .fh5co-blog .blog-text .readmore-btn:hover {
